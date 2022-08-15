@@ -46,6 +46,10 @@ def match(resume, job_des):
 
 app = Flask(__name__)
 
+@app.route('/home')
+def Home():
+    return "Hello World"
+
 @app.route('/rank-candidate' , methods=['POST'])
 def Rank():
     json_data = request.get_json(force=True)
