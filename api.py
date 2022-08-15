@@ -3,7 +3,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import textdistance as td
 from sklearn.feature_extraction.text import TfidfVectorizer
-import PyPDF2
 from pdfminer.high_level import extract_text
 
 # def RankCandidate(Resume , Job_Desc):
