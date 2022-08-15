@@ -1,9 +1,4 @@
-from crypt import methods
-import os
-from urllib import response
-from model import match,do_tfidf
 from flask import Flask, request, redirect, jsonify
-from app import app
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import textdistance as td
